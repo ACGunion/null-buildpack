@@ -34,4 +34,5 @@ echo "It Works!" >> /tmp/app/htdocs/index.html
 
 echo "--------------------> Install Completed"
 
+echo -e "/home/vcap/app/nginx/sbin/nginx -c /home/vcap/app/nginx/conf/nginx.conf && /home/vcap/app/php/sbin/php-fpm" > ""$BUILD_DIR/.profile.d/00002_run.sh"
 #echo "-----> Nothing to do."
