@@ -8,7 +8,7 @@ yml = {
 'addons' => [],
 'config_vars' => {},
 'default_process_types' => {
-'worker' => '/home/vcap/app/nginx/sbin/nginx -c /home/vcap/app/nginx/conf/nginx.conf'
+'COMMAND' => '/home/vcap/app/nginx/sbin/nginx -c /home/vcap/app/nginx/conf/nginx.conf'
 }
 }.to_yaml
 
