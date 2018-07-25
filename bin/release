@@ -8,7 +8,7 @@ yml = {
 'addons' => [],
 'config_vars' => {},
 'default_process_types' => {
-'web' => ''
+'web' => 'bash'
 }
 }.to_yaml
 
